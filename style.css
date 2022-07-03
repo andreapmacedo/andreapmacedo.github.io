@@ -16,7 +16,8 @@ html {
 
 header {
   /* background-color: #343238; */
-  background-color: rgba(52, 50, 56, 0.75);
+  /* background-color: rgba(52, 50, 56, 0.75); */
+  background-color: rgba(52, 50, 56);
   border-bottom: #4978ff;
   border-bottom-style: solid;
   border-bottom-width: 8px;
@@ -111,16 +112,22 @@ header p {
 
 .about-main {
   background-color: rgba(52, 50, 56, 0.85);
+  width: 100%;
   /* a posição absolute permite deixar os filhos limitados ao tamanho do pai */
   /* position: absolute;  */
-  margin: 100px;
+  /* margin: 100px; */
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  /* background-color: #343238; */
-  /* background-color: rgba(52, 50, 56, 0.75); */
-  border-radius: 10px;
+  /* border-radius: 10px; */
+}
+
+.about-main-in {
+  background-color: rgb(123, 123, 178);
+  width: 1200px;
+  display: flex;
+  align-items: center;
 }
 
 .about-top {
@@ -154,6 +161,7 @@ header p {
 .about-me-card-text-container {
   /* position: absolute; */
   /* background-color: #fff; */
+  min-width: 500px;
   background-color: rgba(254, 254, 254, 0.95);
   box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.37);
   border-radius: 10px;
@@ -167,6 +175,7 @@ header p {
 
 .about-left {
   /* background-color: #343238; */
+  margin-left: 50px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
@@ -250,6 +259,7 @@ header p {
 .about-right {
   /* background: chartreuse; */
   /* text-align: center; */
+  margin-right: 25px;
   max-width: 750px;
   text-align: justify;
   /* float: left; */
