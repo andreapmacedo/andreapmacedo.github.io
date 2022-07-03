@@ -24,14 +24,14 @@ header {
   justify-content: space-between;
   align-items: center;
   transition: 0.6s;
-  padding: 40px 100px;
+  padding: 10px 100px;
   z-index: 100000;
 }
 
 header .logo {
   position: relative;
 
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
   font-size: 2em;
@@ -201,22 +201,32 @@ header p {
 }
 
 .formation-left {
+  align-items: center;
   background-color: aliceblue;
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .formation h3 {
   color: #4978ff;
-  padding-bottom: 20px;
+  padding: 20px;
+  align-self: flex-start;
+  text-shadow: 2px 2px #ccc;
 }
+
 .box-inst {
   display: flex;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin: 20px;
   /* padding-left: 20px; */
   /* background-color: #9ccefc; */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.37);
-  width: 350px;
+  /* width: 350px; */
+  max-width: 350px;
+  min-width: 350px;
 }
 
 .box-inst h3 {
@@ -231,6 +241,7 @@ header p {
 .box-inst img {
   padding: 10px;
   border-radius: 15px;
+  width: 120px;
 }
 
 .box-inst-left {
