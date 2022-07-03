@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,400;1,600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -109,7 +110,9 @@ header p {
 }
 
 .about-main {
-  position: absolute;
+  background-color: rgba(52, 50, 56, 0.85);
+  /* a posição absolute permite deixar os filhos limitados ao tamanho do pai */
+  /* position: absolute;  */
   margin: 100px;
   display: flex;
   flex-direction: row;
@@ -123,7 +126,7 @@ header p {
 .about-top {
   position: absolute;
   /* background-color: #61579D; */
-  background-color: rgba(97, 87, 157, 0.75);
+  background-color: rgba(97, 87, 157, 0.55);
   border-radius: 10px 10px 0 0;
   width: 100%;
   /* width: 800px; */
@@ -136,8 +139,8 @@ header p {
 
 .about-bottom {
   position: absolute;
-  background-color: #87D2F2;
-  background-color: rgba(135, 210, 242, 0.75);
+  /* background-color: #87D2F2; */
+  background-color: rgba(135, 210, 242, 0.55);
   border-radius: 0 0 10px 10px;
   width: 100%;
   /* width: 800px; */
@@ -152,7 +155,7 @@ header p {
   /* position: absolute; */
   /* background-color: #fff; */
   background-color: rgba(254, 254, 254, 0.95);
-  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.07);
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.37);
   border-radius: 10px;
   z-index: 10;
 }
@@ -178,7 +181,7 @@ header p {
 
 .about-personal-img{
   background-color: #fff;
-  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.07);
+  /* box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.17); */
   border-radius: 50%;
   width: 250px;
   height: 250px;
@@ -193,11 +196,16 @@ header p {
 }
 
 .about-personal-subtitle p{
-  color: #4978ff;
+  color: #2a334d;
   /* font-size: larger; */
-  font-style: inherit;
-  font-size: 24px;
-  font-weight: 400;
+  /* text-shadow: 1px 1px #fff; */
+  /* font-style: inherit; */
+  line-height: 1.2em;
+  font-size: 30px;
+  text-shadow: 3px 2px 1px rgba(50, 50, 50, 0.37);
+  /* font-weight: 400; */
+  /* font-weight: 400; */
+  font-family: 'Finlandica', sans-serif;
 }
 
 .about-me-card-text-container h3{
@@ -206,7 +214,8 @@ header p {
 
 .about-me-card-text-container h3{
   padding-bottom: 20px;
-  color: #4978ff;
+  /* color: #4978ff; */
+  color: #2a334d;
   text-align: center;
 }
 
