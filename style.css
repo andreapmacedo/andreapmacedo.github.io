@@ -8,11 +8,14 @@
   font-family: "Poppins", sans-serif;
   word-spacing: 5px;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 header {
-  background-color: #343238;
+  /* background-color: #343238; */
+  background-color: rgba(52, 50, 56, 0.75);
   border-bottom: #4978ff;
   border-bottom-style: solid;
   border-bottom-width: 8px;
@@ -46,10 +49,12 @@ header ul {
   justify-content: center;
   align-items: center;
 }
+
 header ul li {
   position: relative;
   list-style: none;
 }
+
 header ul li a {
   position: relative;
   margin: 0 15px;
@@ -78,6 +83,7 @@ header.sticky .logo,
 header.sticky ul li a {
   color: #343238;
 }
+
 header.sticky p em {
   color: #4978ff;
 }
@@ -95,12 +101,123 @@ header p {
   width: 100%;
   min-height: 100vh;
   background-size: cover;
-  background-image: url(./img/fundo_work_1600.png);
+  background-image: url(./img/fundo_work_6-1200.png);
   display: flex;
   color: #343238;
   justify-content: center;
   align-items: center;
 }
+
+.about-main {
+  position: absolute;
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: #343238; */
+  /* background-color: rgba(52, 50, 56, 0.75); */
+  border-radius: 10px;
+}
+
+.about-top {
+  position: absolute;
+  /* background-color: #61579D; */
+  background-color: rgba(97, 87, 157, 0.75);
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  /* width: 800px; */
+  height: 38%;
+  z-index: 1;
+  /* top: 70px; */
+  top: 0px;
+  left: 0;
+}
+
+.about-bottom {
+  position: absolute;
+  background-color: #87D2F2;
+  background-color: rgba(135, 210, 242, 0.75);
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  /* width: 800px; */
+  height: 60%;
+  z-index: 1;
+  /* top: 70px; */
+  bottom: 0px;
+  left: 0;
+}
+
+.about-me-card-text-container {
+  /* position: absolute; */
+  /* background-color: #fff; */
+  background-color: rgba(254, 254, 254, 0.95);
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.07);
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.about-me-card-text-container .text-container{
+  padding: 30px;
+  
+}
+
+.about-left {
+  /* background-color: #343238; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 450px;
+  height: 500px;
+  /* padding: 100px; */
+  /* padding-left: 200px; */
+  z-index: 2;
+}
+
+
+.about-personal-img{
+  background-color: #fff;
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.07);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  top: 20px;
+}
+
+.about-personal-subtitle{
+  margin-top: 50px;
+  /* background-color: #fff; */
+  width: 200px;
+  height: 150px;
+}
+
+.about-personal-subtitle p{
+  color: #4978ff;
+  /* font-size: larger; */
+  font-style: inherit;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-me-card-text-container h3{
+  color: #4978ff;
+}
+
+.about-me-card-text-container h3{
+  padding-bottom: 20px;
+  color: #4978ff;
+  text-align: center;
+}
+
+.about-me-card-text-container p{
+  /* color: #4978ff; */
+  font-size: 18px;
+  text-indent: 45px;
+  padding-bottom: 15px;
+}
+
+
 .about h2 {
   color: #fff;
   font-size: 90px;
@@ -112,43 +229,10 @@ header p {
   color: #4978ff;
 }
 
-.about-main {
-  /* width: 100%; */
-  /* min-height: 100vh; */
-  
-  margin: 100px;
-  color: #343238;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #343238;
-  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.37);
-  border-radius: 10px;
-}
-
-.about-left {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  width: 450px;
-  /* color: red; */
-  /* background: red; */
-  padding: 100px;
-  padding-left: 200px;
-  /* padding-right: 200px; */
-  /* border-right: #4978ff 2px;
-  border-right-style: solid;
-  border-right-width: 3px; */
-}
-
 .img-main {
   width: 450px;
   border-style: solid;
-  /* box-shadow: rgba(198, 198, 198, 0.753) 0px 2px 0px, rgba(198, 198, 198, 0.753) 0px 0px 18px; */
   box-shadow: rgba(255, 255, 255, 0.75) 0px 3px 3px, rgba(255, 255, 255, 0.50) 0px 0px 3px 3px;
-  /* box-shadow: rgba(255, 255, 255, 0.2) 0px 60px 40px -7px; */
   border-width: 2px;
   border-radius: 10px;
   border-color: #fff;
@@ -166,21 +250,7 @@ header p {
   /* para o position relative funciona */
   /* position: relative; */
   left: 50px;
-}
-
-.about-right p {
-  /* padding: 30px; */
-  /* margin: 60px; */
-  font-size: 18px;
-  color: #fff;
-  text-indent: 45px;
-  padding-bottom: 15px;
-}
-
-.about h3 {
-  color: #fff;
-  padding-bottom: 20px;
-  text-align: center;
+  z-index: 2;
 }
 
 .formation-main {
