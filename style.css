@@ -261,6 +261,10 @@ html {
 #about {
   height: 100vh;
   background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -272,9 +276,20 @@ html {
   /* height: 300px; */
   width: 100%;
   padding-top: 50px;
+  /*  Permite sobrepor um elemento */
+  position: absolute;
+  /*  O top será em relação ao elemento anterior, neste caso, a navbar */
+  /* obs. o top 0 é estabelecido sobre a navbar, não mais sobre o HTML da página */
+  top: 0px;
+  z-index: 0;
 }
 
 .card-img {
   max-height: 250px;
   max-width: 1600px;
+}
+
+.about-card-container {
+  z-index: 1;
+  position: relative;
 }
