@@ -282,6 +282,7 @@ html {
   /* obs. o top 0 é estabelecido sobre a navbar, não mais sobre o HTML da página */
   top: 0px;
   z-index: 0;
+  /* border-bottom: 3px solid #FFC00C; */
 }
 
 .card-img {
