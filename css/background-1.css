@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
 }
+
 .layer
 {
 	position: absolute;
@@ -22,62 +23,62 @@
 .layer1 
 {
 	background: #03a9f4;
-	transform: skewX(-45deg) translateX(0px);
+	transform: skewX(-45deg) translateX(-500px);
 	z-index: 1;
 }
 
 .layer2
 {
 	background: #c7dff1;
-	transform: skewX(-45deg) translateX(-100px);
+	transform: skewX(-45deg) translateX(-600px);
 	z-index: 3;
 }
 
 .layer3 
 {
 	background: #2e2574;
-	transform: skewX(-45deg) translateX(-200px);
+	transform: skewX(-45deg) translateX(-700px);
 	z-index: 5;
 }
 
 .layer4 
 {
 	background: #222;
-	transform: skewX(-45deg) translateX(-300px);
+	transform: skewX(-45deg) translateX(-800px);
 	z-index: 10;
 }
 
 .layer5 
 {
 	background: #2e2574;
-	transform: skewX(45deg) translateX(0px);
+	transform: skewX(45deg) translateX(-500px);
 	z-index: 2;
 }
 
 .layer6
 {
 	background: #03a9f4;
-	transform: skewX(45deg) translateX(-100px);
+	transform: skewX(45deg) translateX(-600px);
 	z-index: 4;
 }
-
 .layer7 
 {
 	background: #c7dff1;
-	transform: skewX(45deg) translateX(-200px);
+	transform: skewX(45deg) translateX(-700px);
 	z-index: 6;
 }
 
 .layer8 
 {
 	background: #222;
-	transform: skewX(45deg) translateX(-300px);
+	transform: skewX(45deg) translateX(-800px);
 	z-index: 10;
 }
 
 .layer9 
 {
-	background: transparent;
-	transform: skewX(-45deg) translateX(-300px);
+	background: #333;
+	/* background: transparent; */
+	transform: skewX(-45deg) translateX(-400px);
 	z-index: 10;
 }

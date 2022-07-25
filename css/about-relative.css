@@ -8,7 +8,7 @@
   height: 100vh;
   font-family: 'Space Mono', monospace;
   font-weight: 400;
-
+  
 }
 
 #about h4{
@@ -44,11 +44,18 @@
 }
 
 .about-card-container .left-bottom {
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-bottom: 25px;
   padding-left: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about-card-container .left-bottom p{
+  font-size: 1.8rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
 }
 
 .about-card-container .right {
@@ -75,91 +82,74 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
 }
 
-
 .img-3x4 {
-  height: 250px;
-  min-height: 250px;
-  max-width: 250px;
-  width: 250px;
-  min-width: 250px;
-  max-width: 250px;
-  width: 100%;
+  margin: 25px;
   border: 2px solid #ccc;
   border-radius: 50%;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-
 }
 
+@media (max-width: 374.98px) { 
+   
+  .about-card-container {
+    background-color: red;
+    flex-direction: column;  
+    /* max-width: 345px; */
+  }
 
-
+  /* .about-card-container .right {
+  } */
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 575.98px) { 
-
-  #about {
-    /* background-color: red; */
-    /* background-color: yellow; */
-  }
-
+@media (min-width: 375px) and (max-width: 575.98px) { 
+ 
   .about-card-container {
+    background-color: yellow;
     flex-direction: column;  
-    max-width: 300px;
+    /* max-width: 300px; */
+    max-width: 345px;
   }
-
-  .about-card-container .right {
-    font-size: 1rem;
-    max-width: 350px;
-  }
+  /* .about-card-container .right {
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-
-  #about {
-    /* background-color: green; */
-  }
   
   .about-card-container {
+    background-color: green;
     flex-direction: column;
-    max-width: 576px;
+    min-width: 375px;
+    max-width: 536px;
   }
 
-  .about-card-container .right {
-    /* font-size: 1.2rem; */
-    max-width: 500px;
-  }
+  /* .about-card-container .right {
+  } */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-
-  #about {
-    /* background-color: purple; */
-  }
-
+ 
   .about-card-container {
+    background-color: purple;
     flex-direction: column;
-    max-width: 768px;
+    max-width: 738px;
   }
-  .about-card-container .right {
-    /* font-size: 1.2rem; */
-    max-width: 500px;
-  }
+  /* .about-card-container .right {
+  } */
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-
-  #about {
-    /* background-color: blue; */
-  }
-
+  
   .about-card-container {
-      max-width: 992px;
+    background-color: blue;
+      max-width: 962px;
     }
 
   .about-card-container .left {
@@ -167,7 +157,6 @@
   }
 
   .about-card-container .right {
-    /* font-size: 2.2rem; */
     max-width: 500px;
   }  
 }
