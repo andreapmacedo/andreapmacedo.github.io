@@ -2,7 +2,7 @@
 
 #about {
   align-items: center;
-  background-color: #000;
+  background-color: #222;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -17,8 +17,9 @@
 }
 
 .about-card-container {
-  /* position: relative; */
-  background-color: white;  
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.95);
+  /* trasparent: true;   */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +100,7 @@
 @media (max-width: 575.98px) { 
 
   #about {
-    background-color: red;
+    /* background-color: red; */
     /* background-color: yellow; */
   }
 
@@ -118,7 +119,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) { 
 
   #about {
-    background-color: green;
+    /* background-color: green; */
   }
   
   .about-card-container {
@@ -136,7 +137,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
   #about {
-    background-color: purple;
+    /* background-color: purple; */
   }
 
   .about-card-container {
@@ -154,7 +155,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
   #about {
-    background-color: blue;
+    /* background-color: blue; */
   }
 
   .about-card-container {
