@@ -4,9 +4,9 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Andada Pro", serif;
-  font-family: "Poppins", sans-serif;
+  /* box-sizing: border-box; */
+  /* font-family: "Andada Pro", serif;
+  font-family: "Poppins", sans-serif; */
   word-spacing: 5px;
 }
 

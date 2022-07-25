@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 #about {
   align-items: center;
@@ -5,6 +6,15 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  /* font-family: 'Source Code Pro', monospace; */
+}
+
+#about h4{
+  
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .about-card-container {
@@ -41,10 +51,23 @@
 
 .about-card-container .right {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 25px;
+  font-size: 1.2rem;
+  text-align: justify;
 }
+
+.about-card-container h5 {
+  padding-bottom: 10px;
+}
+
+.about-card-container p {
+  padding-bottom: 25px;
+}
+
+
 
 .about-card-container .right-bottom {
   display: flex;
@@ -54,9 +77,6 @@
   width: 100%;
 }
 
-.about-card-container h5{
-  padding-bottom: 10px;
-}
 
 .img-3x4 {
   height: 250px;
@@ -107,7 +127,7 @@
   }
 
   .about-card-container .right {
-    font-size: 1rem;
+    /* font-size: 1.2rem; */
     max-width: 500px;
   }
 }
@@ -123,6 +143,11 @@
     flex-direction: column;
     max-width: 768px;
   }
+  .about-card-container .right {
+    /* font-size: 1.2rem; */
+    max-width: 500px;
+  }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -139,4 +164,9 @@
   .about-card-container .left {
     width: 350px;
   }
+
+  .about-card-container .right {
+    /* font-size: 2.2rem; */
+    max-width: 500px;
+  }  
 }
