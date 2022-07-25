@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1000px;
   border-radius: 3px;
 }
 
@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  /* width: 400px; */
 }
 
 .about-card-container .left-bottom {
@@ -38,7 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  /* width: 400px; */
   /* background-color: #4978ff; */
 }
 
@@ -80,27 +80,60 @@
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (max-width: 575.98px) { 
 
+  #about {
+    background-color: red;
+  }
+
+  .about-card-container {
+      flex-direction: column;  
+      max-width: 300px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 576px) and (max-width: 767.98px) { 
 
+  #about {
+    background-color: green;
+  }
+  
+  .about-card-container {
+      flex-direction: column;
+      max-width: 576px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
 
+  #about {
+    flex-direction: column;
+    background-color: purple;
+  }
+
+  .about-card-container {
+      max-width: 768px;
+    }
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-   
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  #about {
+    flex-direction: column;
+    background-color: blue;
+  }
+
+  .about-card-container {
+      max-width: 992px;
+    }
+
+  .about-card-container .left {
+    width: 350px;
+  }
+
+
 }
-
-/* body {
-  padding-bottom: 500px;
-} */
-
