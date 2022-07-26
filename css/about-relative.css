@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
-#about {
+#home {
   align-items: center;
   background-color: #222;
   display: flex;
@@ -8,10 +8,9 @@
   height: 100vh;
   font-family: 'Space Mono', monospace;
   font-weight: 400;
-  
 }
 
-#about h4{
+#home h4{
   font-weight: 700;
   padding-bottom: 10px;
 }
@@ -34,6 +33,7 @@
   align-items: center;
   justify-content: center;
   width: 400px;
+  min-width: 350px;
 }
 
 .about-card-container .left-top {
@@ -89,13 +89,14 @@
   margin: 25px;
   border: 2px solid #ccc;
   border-radius: 50%;
+  
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 
 @media (max-width: 374.98px) { 
    
   .about-card-container {
-    background-color: red;
+    /* background-color: red; */
     flex-direction: column;  
     /* max-width: 345px; */
   }
@@ -108,7 +109,7 @@
 @media (min-width: 375px) and (max-width: 575.98px) { 
  
   .about-card-container {
-    background-color: yellow;
+    /* background-color: yellow; */
     flex-direction: column;  
     /* max-width: 300px; */
     max-width: 345px;
@@ -121,7 +122,7 @@
 @media (min-width: 576px) and (max-width: 767.98px) { 
   
   .about-card-container {
-    background-color: green;
+    /* background-color: green; */
     flex-direction: column;
     min-width: 375px;
     max-width: 536px;
@@ -135,7 +136,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) { 
  
   .about-card-container {
-    background-color: purple;
+    /* background-color: purple; */
     flex-direction: column;
     max-width: 738px;
   }
@@ -148,7 +149,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   
   .about-card-container {
-    background-color: blue;
+      /* background-color: blue; */
       max-width: 962px;
     }
 

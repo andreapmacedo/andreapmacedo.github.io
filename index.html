@@ -14,25 +14,28 @@
   <link rel="stylesheet" href="css/hard-skills.css">
   <link rel="stylesheet" href="css/background-2.css">
   <link rel="stylesheet" href="css/about-relative.css">
-
-
   <script src="js/scripts.js" defer></script>
-  <!-- https://getbootstrap.com/docs/5.0/utilities/borders/ -->
+
 </head>
-
-
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Quem sou eu</a>
+            <a class="nav-link active" aria-current="page" href="#home">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+              </svg>            
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">Quem sou eu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Formação</a>
@@ -57,6 +60,34 @@
     </div>
   </nav>
 
+
+  <!-- <section id="x">
+    <div class="x-container">
+    </div>
+  </section> -->
+
+  <section id="home">
+    <div class="about-card-container">
+      <div class="left">
+        <div class="left-top">
+          <img class="img-3x4" src="./img/3x4-250.png" alt="my image">
+        </div>
+        <div class="left-bottom">
+          <p>
+            Analista e desenvolvedor de sistemas
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <!-- <div> -->
+          <h4>Quem sou eu</h4>
+          <p>Sou André Macedo, analista e desenvolvedor de sistemas; após duas décadas empreendendo, resolvi realizar o sonho de trabalhar com programação de softwares. Eu sou fascinado por tecnologia, então tenho como meta aliar a experiência do empreendedor a paixão pela nova área de trabalho.</p>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+
   <!-- about me -->
   <section id="about">
     <div class="about-card-container">
@@ -73,17 +104,13 @@
       <div class="right">
         <!-- <div> -->
           <h4>Quem sou eu</h4>
-          <!-- <p class="card-text font-monospace text-wrap text-break fs-5">Sou André Macedo, analista e desenvolvedor React Front-End; após duas décadas empreendendo, resolvi realizar o sonho de trabalhar com programação de softwares. Eu sou fascinado por tecnologia, então tenho como meta aliar a experiência do empreendedor a paixão pela nova área de trabalho.</p> -->
           <p>Sou André Macedo, analista e desenvolvedor de sistemas; após duas décadas empreendendo, resolvi realizar o sonho de trabalhar com programação de softwares. Eu sou fascinado por tecnologia, então tenho como meta aliar a experiência do empreendedor a paixão pela nova área de trabalho.</p>
         <!-- </div> -->
       </div>
     </div>
   </section>
 
-  <section id="x">
-    <div class="x-container">
-    </div>
-  </section>
+
 
   <section id="hard-skills">
     <div class="hard-skills-container">
@@ -150,6 +177,7 @@
         <div class="formation-main">
           <div class="formation-left">
             <h3 class="formation">Formação</h3>
+            
 
             <div class="box-inst">
               <div class="box-inst-left">

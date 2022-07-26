@@ -1,3 +1,6 @@
+body {
+	overflow-x: hidden;
+}
 
 .background-container {
     position: relative;
@@ -13,72 +16,36 @@
 .layer
 {
 	position: absolute;
-	top: 0;
-	left: -50%;
+	top: 0px;
+	/* margin-top: 50px; */
+	background: #333;
+	/* left: -50%; */
+	/* left: -70%; */
 	width: 100%;
 	height: 100vh;
-	box-shadow: 10px 0 10px rgba(0,0,0,0.25);
-}
-
-.layer1 
-{
-	background: #03a9f4;
-	transform: skewX(-45deg) translateX(-500px);
-	z-index: 1;
-}
-
-.layer2
-{
-	background: #c7dff1;
-	transform: skewX(-45deg) translateX(-100px);
-	z-index: 3;
-}
-
-.layer3 
-{
-	background: #2e2574;
-	transform: skewX(-45deg) translateX(-200px);
-	z-index: 5;
-}
-
-.layer4 
-{
-	background: #03a9f4;
-	transform: skewX(-45deg) translateX(-300px);
-	z-index: 10;
-}
-
-.layer5 
-{
-	background: #2e2574;
-	transform: skewX(45deg) translateX(0px);
-	z-index: 2;
-}
-
-.layer6
-{
-	background: #03a9f4;
-	transform: skewX(45deg) translateX(100px);
-	z-index: 4;
-}
-.layer7 
-{
-	background: #c7dff1;
-	transform: skewX(45deg) translateX(200px);
-	z-index: 6;
 }
 
 .layer8 
 {
-	background: #333;
-	transform: skewX(45deg) translateX(300px);
-	z-index: 10;
+	background: rgb(40, 198, 12);
+	/* transform: skewX(45deg) translateX(100px);  */
+	transform: skewX(75deg) translateX(1000px); 
+	/* transform: skewX(75deg) translateX(1000px);  */
+	
+	/* transform: skewX(75deg) ; */
+	
+	box-shadow: 10px 0 10px rgba(0,0,0,0.25);
+	z-index: 19;
 }
 
 .layer9 
 {
-	background: #444;
+	background: rgb(51, 146, 229);
+	box-shadow: 10px 0 10px rgba(0,0,0,0.25);
 	/* background: transparent; */
-	transform: skewX(-45deg) translateX(-400px);
+	/* transform: skewX(-45deg) translateX(-100px); */
+	/* transform: skewX(-45deg) ; */
+	transform: skewX(-75deg) translateX(1000px) ;
+	/* transform: skewX(-75deg) ; */
 	z-index: 10;
 }
