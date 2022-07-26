@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
+
 #about {
-  align-items: center;
-  background-color: #222;
-  display: flex;
-  justify-content: center;
-  /* height: 100vh; */
-  /* width: 100%; */
-  /* width: 100vh; */
-  font-family: 'Space Mono', monospace;
-  font-weight: 400;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 
 #about h4{
   font-weight: 700;
