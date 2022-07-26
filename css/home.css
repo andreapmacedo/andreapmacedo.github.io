@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+#home {
+  /* align-items: center; */
+  background-color: #222;
+  /* display: flex; */
+  /* justify-content: center; */
+  height: 100vh;
+}
+
