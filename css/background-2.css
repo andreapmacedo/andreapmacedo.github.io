@@ -1,0 +1,86 @@
+body {
+	overflow-x: hidden;
+}
+
+.about-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #222;
+	overflow: hidden;
+
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.layer
+{
+	position: absolute;
+	/* top: 0; */ /* apenas para quando o conteúdo está no topo*/
+	/* left: -50%; */
+	/* left: 50%; */
+	width: 100%; /* precisa ter para position absolute*/
+	height: 100vh; /* precisa ter para position absolute*/
+	box-shadow: 10px 0 10px rgba(0,0,0,0.25);
+	z-index: 0;
+}
+
+.layer1
+{
+	/* top: 1400px; */
+	/* width: 80px; */
+	height: 1580px;
+	right: 50%;
+	background: rgb(207, 81, 81);
+	/* left: 50%; */
+	z-index: 1;
+}
+
+.layer2
+{
+	height: 480px;
+	/* height: 280px; */
+	bottom: 50%;
+	background: rgb(199, 190, 27);
+	z-index: 9;
+}
+
+
+.layer8 
+{
+	left: 50%;
+	background: rgb(40, 198, 12);
+	width: 20000px;
+	/* transform: skewX(75deg) translateX(0px);  */
+	/* transform: skewY(75deg) translateY(600px);  */
+	/* transform: skewX(75deg) translateX(1000px);  */
+	
+	/* transform: skewX(75deg) ; */
+	
+	box-shadow: 10px 0 10px rgba(0,0,0,0.25);
+	z-index: 8;
+	/* animation: rotation-1 3s ease-in-out infinite; */
+}
+
+.layer9 
+{
+	background: rgb(51, 146, 229);
+	box-shadow: 10px 0 10px rgba(0,0,0,0.25);
+	/* background: transparent; */
+	/* transform: skewX(-45deg) translateX(-100px); */
+	/* transform: skewX(-45deg) ; */
+	transform: skewX(-35deg) translateX(00px) ;
+	/* transform: skewX(-75deg) ; */
+	z-index: 10;
+}
+
+@keyframes rotation-1 {
+	0% {
+		transform: rotate(75deg) ;
+	}
+	100% {
+		transform: rotate(435deg) ;
+	}
+}
