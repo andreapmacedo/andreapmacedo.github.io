@@ -54,14 +54,18 @@ body {
 {
 	height: 2%;
 	left: 70%;
-	top: 90px;
+	top: 95px;
 	background: rgb(27, 176, 199);
 	z-index: 7;
 }
+
 .layer4
 {
-	height: 12%;
-	left: 70%;
+	height: 7%;
+	height: 76px;
+	/* left: 70%; */
+	right: 70%;
+	/* right: 220px; */
 	bottom: 0px;
 	background: #222;
 	background: #333;
@@ -69,13 +73,18 @@ body {
 	transform: skewX(25deg); 
 	/* box-shadow: 10px 0 10px rgba(0,0,0,0.25); */
 }
+
 .layer5
 {
-	height: 14%;
-	left: 67%;
+	height: 8%;
+	height: 80px;
+	/* left: 69%; */
+	/* right: 222px; */
+	right: 68.5%;
 	bottom: 0px;
 	background: #333;
 	background: #222;
+	background: rgb(51, 255, 0);
 	z-index: 6;
 	transform: skewX(25deg); 
 }
