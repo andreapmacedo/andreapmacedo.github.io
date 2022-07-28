@@ -290,25 +290,52 @@ p
 {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 40px;
+	/* margin-top: 40px; */
 }
 .about .content .textBox
 {
 	width: 49%;
 	min-width: 49%;
+	z-index: 2;
 }
-.about .content .imgBx
-{
-	margin-left: 40px;
+.about .content {
 	display: flex;
-	align-items: center;
+	/* flex-direction: column; */
+	width: 100%;
+	/* height: 100vh; */
 	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
+
 .about .content .imgBx img
 {
-	max-width: 100%;
+	/* max-width: 100%; */
+	/* position: relative; */
+	/* height: 60vh; */
+	
 	/* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);  */
+	/* z-index: 1; */
 }
+
+/* .depoimentos
+{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	
+} */
+
+/* .depoimentos .imgBx img
+{
+	height: 60vh;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+} */
+
+
 .services .content
 {
 	display: grid;
@@ -415,6 +442,7 @@ p
 	color: #fff;
 	font-size: 1em;
 }
+
 .depoimentos
 {
 	display: flex;
@@ -533,7 +561,7 @@ p
 }
 .themeSwitch::after 
 {
-	content: 'Switch To Dark Mode';
+	content: 'Mudar para tema escuro';
 	position: absolute;
 	left: 40px;
 	font-size: 0.7em;
@@ -545,7 +573,7 @@ p
 }
 .dark .themeSwitch::after 
 {
-	content: 'Switch To Light Mode';
+	content: 'Mudar para tema claro';
 }
 
 /* Now, Make it responsive */
