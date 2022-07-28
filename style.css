@@ -533,7 +533,7 @@ p
 }
 .themeSwitch::after 
 {
-	content: 'Switch To Dark Mode';
+	content: 'Mudar para tema escuro';
 	position: absolute;
 	left: 40px;
 	font-size: 0.7em;
@@ -545,7 +545,7 @@ p
 }
 .dark .themeSwitch::after 
 {
-	content: 'Switch To Light Mode';
+	content: 'Mudar para tema claro';
 }
 
 /* Now, Make it responsive */

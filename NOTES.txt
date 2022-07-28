@@ -9,3 +9,15 @@ CSS Creative Product Card UI Design | E-commerce Card Using Html5 & CSS3
 
 How To Make Dark Mode Websites using Html CSS & Javascript | Dark Mode Portfolio Website Design  
   https://www.youtube.com/watch?v=coVtdZRoAFc&t=19s
+
+
+  react
+    redux
+  node
+  Javascript
+  css
+  sass
+  git
+  docker
+  sql
+
