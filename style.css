@@ -11,7 +11,7 @@
 {
 	--black: #333;
 	--black2: #333;
-	--white: #fff;
+	--white: #eee;
 	--white2: #fff;
 }
 .dark 
@@ -220,7 +220,7 @@ p
 .socialMedia
 {
 	position: absolute;
-	bottom: 20px;
+	bottom: 25px;
 	display: flex;
 }
 .socialMedia li
@@ -239,7 +239,7 @@ p
 	align-items: center;
 	text-decoration: none;
 	color: var(--black);
-	font-size: 1.2em;
+	font-size: 2.2em;
 }
 .dark .socialMedia li a:hover
 {
@@ -288,7 +288,7 @@ p
 .about .content
 {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	margin-top: 40px;
 }
 .about .content .textBox
@@ -299,6 +299,9 @@ p
 .about .content .imgBx
 {
 	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .about .content .imgBx img
 {
