@@ -221,7 +221,7 @@ p
 .socialMedia
 {
 	position: absolute;
-	bottom: 25px;
+	bottom: 38px;
 	display: flex;
 }
 .socialMedia li
@@ -352,6 +352,10 @@ p
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+.services .content .serviceBox:hover
+{
+	background: #afcce4;
 }
 .dark .services .content .serviceBox:hover
 {
